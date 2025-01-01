@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Sameer14300/Nancy_Music",
+    "https://github.com/Sameer14300/Dudu_Music",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -81,13 +81,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/345a62a958c99fff4af63-0c833fcf6f29533494.jpg"
+    "START_IMG_URL", "https://graph.org/file/eb7eab1be60a8547e0157-1f18e3ad25421960c4.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/345a62a958c99fff4af63-0c833fcf6f29533494.jpg"
+    "PING_IMG_URL", "https://graph.org/file/eb7eab1be60a8547e0157-1f18e3ad25421960c4.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org//file/3dfcffd0c218ead96b102.png"
-STATS_IMG_URL = "https://graph.org/file/345a62a958c99fff4af63-0c833fcf6f29533494.jpg"
+STATS_IMG_URL = "https://graph.org/file/eb7eab1be60a8547e0157-1f18e3ad25421960c4.jpg"
 TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
 TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
